@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Inspiration:400");
+
+.timeline .overlap-wrapper {
+  height: 640px;
+  width: 360px;
+}
+
+.timeline .overlap {
+  height: 610px;
+  left: 72px;
+  position: relative;
+  top: 15px;
+  width: 217px;
+}
+
+.timeline .group {
+  height: 610px;
+  left: 103px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.timeline .overlap-group {
+  height: 610px;
+  position: relative;
+}
+
+.timeline .frame {
+  background-color: var(--slate-400);
+  border-radius: 10px;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+
+
+.timeline .frame-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 50px;
+  left: 0;
+  position: absolute;
+  top: 45px;
+}
+
+.timeline .item {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 60px;
+  position: relative;
+}
+
+.icon {
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+
+.timeline .indicator {
+  height: 42px;
+  position: relative;
+  width: 107px;
+}
+
+.timeline .overlap-group-2 {
+  height: 42px;
+  position: relative;
+  top: -1px;
+  width: 104px;
+}
+
+.timeline .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  left: 0;
+  position: absolute;
+  top: 17px;
+}
+
+.timeline .line {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 79px;
+}
+
+.timeline .div-wrapper {
+  border: 0.5px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  height: 25px;
+  overflow: hidden;
+  position: relative;
+  width: 25px;
+}
+
+.timeline .text-wrapper {
+  color: #000000;
+  font-family: "Inspiration", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+}
+
+.timeline .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inspiration", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.timeline .overlap-group-3 {
+  height: 41px;
+  position: relative;
+  width: 104px;
+}
+
+.timeline .frame-5 {
+  align-items: center;
+  display: inline-flex;
+  left: 0;
+  position: absolute;
+  top: 16px;
+}
+
+.timeline .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inspiration", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+
+.line-dashed {
+  border-bottom: 1px dashed;
+}
+

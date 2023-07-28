@@ -1,0 +1,10 @@
+.typewriter-container {
+  display: flex;
+}
+
+.typewriter-text {
+  max-width: 100%;
+  white-space: pre-wrap;
+  /* font-family: "Inspiration", Helvetica; */
+}
+@import url("https://fonts.googleapis.com/css?family=Inspiration:400");
