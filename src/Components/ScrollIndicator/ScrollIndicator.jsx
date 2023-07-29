@@ -24,7 +24,7 @@ const ScrollIndicator = () => {
 
   return (
     <div className={`fixed transform -translate-x-1/2 bottom-4 left-1/2 ${isScrollIndicatorVisible ? 'block' : 'hidden'}`}>
-      <div className="relative flex items-center justify-center w-8 h-16 overflow-auto border border-white rounded-full">
+      <div className="relative flex items-center justify-center w-6 h-12 overflow-auto border border-white rounded-full">
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         <BsArrowDown className="absolute text-white transform -translate-x-1/2 animate-bounce top-1/3" size={24} />
         {/* <BsArrowDown className="absolute text-white transform -translate-x-1/2 animate-bounce top-2/3" size={12} /> */}

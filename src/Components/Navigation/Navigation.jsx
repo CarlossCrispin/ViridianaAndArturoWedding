@@ -9,11 +9,11 @@ import { Timeline } from '../Timeline';
 
 const sections = [
   { id: 'section-1', name: 'Cuando' },
-  { id: 'section-2', name: 'Historia' },
-  { id: 'section-3', name: 'Misa' },
-  { id: 'section-4', name: 'Dresscode' },
-  { id: 'section-5', name: 'party' },
-  { id: 'section-6', name: 'confirm' },
+  { id: 'section-2', name: 'Nuestra historia' },
+  { id: 'section-3', name: 'Ceremonia' },
+  { id: 'section-4', name: 'Outfit & Regalos' },
+  { id: 'section-5', name: 'Locación del Evento' },
+  { id: 'section-6', name: 'Confirmar Asistencia' },
   // Agrega aquí más secciones según necesites
 ];
 
@@ -30,7 +30,7 @@ const Navigation = ({ setShow }) => {
       <div className="fixed top-0 left-0 z-50 hidden md:flex">
         <div className="flex flex-col items-center justify-center h-screen">
           <a
-            className={`text-white flex items-center justify-center mb-4`}
+            className={`text-copper-600 flex items-center justify-center mb-4`}
             onClick={HandleClick}
           >
             <Tooltip content="Inicio">
@@ -43,8 +43,8 @@ const Navigation = ({ setShow }) => {
             <a
               key={section.id}
               href={`#${section.id}`}
-              className={`relative w-8 h-8 border rounded-full ${activeLink === section.id ? 'bg-black text-white' : 'border-white'
-                } hover:bg-slate-400 active:bg-black active:border-slate-100 transition-colors duration-300 flex items-center justify-center mb-4`}
+              className={`relative w-8 h-8 border rounded-full ${activeLink === section.id ? 'bg-copper-600 text-white' : 'border-copper-400'
+                } hover:bg-copper-400 active:bg-copper-600 active:border-slate-100 transition-colors duration-300 flex items-center justify-center mb-4`}
               onClick={() => setActiveLink(section.id)}
             >
               <Tooltip content={section.name}>

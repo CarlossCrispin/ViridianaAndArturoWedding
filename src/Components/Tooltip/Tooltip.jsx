@@ -23,7 +23,7 @@ const Tooltip = ({ content, children }) => {
         {children}
       </div>
       {isTooltipVisible && (
-        <div className="absolute z-10 w-24 p-1 px-4 text-xs text-center text-white bg-black border rounded-full opacity-75 border-slate-200 left-4">
+        <div className="absolute z-10 p-1 px-4 text-xs text-center text-white bg-black border rounded-full opacity-75 w-36 border-slate-200 left-4">
           {content}
         </div>
       )}

@@ -28,13 +28,13 @@ const ScrollButton = () => {
   };
 
   return (
-    <div className={`fixed bottom-4 right-4 z-50 ${isButtonVisible ? 'visible' : 'invisible'}`}>
+    <div className={`fixed bottom-4 right-4 z-50 md:hidden ${isButtonVisible ? 'visible' : 'invisible'}`}>
       <div
-        className={`rounded-full border-white border p-2 cursor-pointer transition-opacity duration-300 ${isButtonVisible ? 'opacity-100' : 'opacity-0'
+        className={`rounded-full border-copper-600 border p-2 cursor-pointer transition-opacity duration-300 ${isButtonVisible ? 'opacity-100' : 'opacity-0'
           }`}
         onClick={scrollToTimeline}
       >
-        <HiOutlineArrowNarrowUp className="text-white" size={20} />
+        <HiOutlineArrowNarrowUp className="text-copper-600" size={20} />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Inspiration:400");
+
 
 .timeline .overlap-wrapper {
   height: 640px;
-  width: 360px;
+  width: 860px;
 }
 
 .timeline .overlap {
@@ -72,7 +72,7 @@
   height: 42px;
   position: relative;
   top: -1px;
-  width: 104px;
+  width: 204px;
 }
 
 .timeline .frame-4 {

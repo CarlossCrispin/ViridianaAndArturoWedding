@@ -57,7 +57,7 @@ export const Timeline = () => {
                       <div className="text-wrapper">03</div>
                     </div>
                   </div>
-                  <a className="text-wrapper-2" href='#section-3'>Misa</a>
+                  <a className="text-wrapper-2" href='#section-3'>la Ceremonia</a>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ export const Timeline = () => {
                     </div>
                     <div className="w-4 h-px mx-auto bg-black line"></div>
                   </div>
-                  <a className="text-wrapper-3" href='#section-4'>Dress code</a>
+                  <a className="text-wrapper-3" href='#section-4'>Outfit & Regalos</a>
                 </div>
               </div>
               <FaTshirt className="icon" />
@@ -85,7 +85,7 @@ export const Timeline = () => {
                       <div className="text-wrapper">05</div>
                     </div>
                   </div>
-                  <a className="text-wrapper-2" href='#section-5'>Salón</a>
+                  <a className="text-wrapper-2" href='#section-5'>Locación del Evento</a>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ export const Timeline = () => {
                       src="https://generation-sessions.s3.amazonaws.com/32b8df08a9b359e899c73b29616aad3f/img/line-1-4.svg"
                     />
                   </div>
-                  <a className="text-wrapper-3" href='#section-6'>Confirma</a>
+                  <a className="text-wrapper-3" href='#section-6'>Confirmar Asistencia</a>
                 </div>
               </div>
               <FaCheck className="icon" />

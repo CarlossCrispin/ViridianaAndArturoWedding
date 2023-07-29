@@ -1,0 +1,13 @@
+/* Modal.css */
+.modal-overlay {
+  z-index: 50;
+}
+
+.modal-background {
+  backdrop-filter: blur(4px);
+}
+
+.modal-container {
+  z-index: 100;
+}
+

@@ -1,0 +1,236 @@
+.ceremony {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ceremony .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 640px;
+  position: relative;
+  width: 360px;
+}
+
+.ceremony .header {
+  align-items: flex-start;
+  background-color: transparent;
+  display: inline-flex;
+  left: 30px;
+  position: absolute;
+  top: 50px;
+}
+
+.ceremony .group {
+  height: 42.36px;
+  position: relative;
+  width: 47.36px;
+}
+
+.ceremony .overlap-group-wrapper {
+  height: 42px;
+  width: 47px;
+}
+
+.ceremony .overlap-group {
+  height: 43px;
+  position: relative;
+  width: 48px;
+}
+
+.ceremony .frame {
+  border-radius: 25px;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.ceremony .text-wrapper {
+  color: #000000;
+  font-family: "Inspiration-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.ceremony .arrow {
+  height: 36px;
+  left: 12px;
+  position: absolute;
+  top: 7px;
+  width: 36px;
+}
+
+.ceremony .text {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 20px 0px 0px;
+  position: relative;
+}
+
+.ceremony .h-1 {
+  color: #000000;
+  font-family: "Inspiration-Regular", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.ceremony .div-wrapper {
+  align-items: center;
+  border: 1px solid;
+  border-color: #ec7024;
+  border-radius: 30px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  left: 104px;
+  padding: 10px 40px;
+  position: absolute;
+  top: 549px;
+}
+
+.ceremony .text-wrapper-2 {
+  color: #a84915;
+  font-family: "Gotham-Book", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ceremony .container {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 34px;
+  left: 24px;
+  position: absolute;
+  top: 196px;
+}
+
+.ceremony .item {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 13px;
+  position: relative;
+}
+
+.ceremony .icon {
+  background-color: #e2e8f0;
+  border-radius: 100px;
+  height: 95px;
+  position: relative;
+  width: 95px;
+}
+
+.ceremony .icon-container {
+  align-items: flex-start;
+  background-color: var(--slate-50);
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 10px;
+  left: 3px;
+  padding: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.ceremony .img {
+  height: 50px;
+  object-fit: cover;
+  position: relative;
+  width: 50px;
+}
+
+.ceremony .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.ceremony .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.ceremony .text-wrapper-3 {
+  color: #a84915;
+  font-family: "Inspiration-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.ceremony .line {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 91px;
+}
+
+.ceremony .text-wrapper-4 {
+  color: var(--slate-600);
+  font-family: "Gotham-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ceremony .p {
+  color: var(--slate-300);
+  font-family: "Gotham-Medium", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.ceremony .norte-col {
+  color: var(--slate-600);
+  font-family: "Gotham-Book", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: relative;
+  width: fit-content;
+}
