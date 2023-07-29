@@ -7,10 +7,12 @@ const ScrollButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const section2 = document.getElementById('section-2');
-      const rect = section2.getBoundingClientRect();
-      const isVisible = rect.top <= 0; // Verifica si la sección llega al tope o está arriba de la ventana
+      if (section2) {
+        const rect = section2.getBoundingClientRect();
+        const isVisible = rect.top <= 0; // Verifica si la sección llega al tope o está arriba de la ventana
 
-      setIsButtonVisible(isVisible);
+        setIsButtonVisible(isVisible);
+      }
     };
 
     // Agrega un evento de escucha para el desplazamiento (scroll) de la página
@@ -23,16 +25,19 @@ const ScrollButton = () => {
   }, []);
 
   const scrollToTimeline = () => {
+    
     const timelineSection = document.getElementById('timeline');
     timelineSection.scrollIntoView({ behavior: 'smooth' });
+    /* const Section1 = document.getElementById('section-1');
+    Section1.scrollIntoView({ behavior: 'smooth' }); */
   };
 
   return (
-    <div className={`fixed bottom-4 right-4 z-50 md:hidden ${isButtonVisible ? 'visible' : 'invisible'}`}>
+    <div className={`fixed bottom-4 right-4 z-50 md:hidden ${isButtonVisible ? 'visible' : 'invisible'}`} onClick={scrollToTimeline}>
       <div
         className={`rounded-full border-copper-600 border p-2 cursor-pointer transition-opacity duration-300 ${isButtonVisible ? 'opacity-100' : 'opacity-0'
           }`}
-        onClick={scrollToTimeline}
+        
       >
         <HiOutlineArrowNarrowUp className="text-copper-600" size={20} />
       </div>

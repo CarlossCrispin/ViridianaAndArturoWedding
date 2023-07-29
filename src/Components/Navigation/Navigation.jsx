@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import  { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import './Navigation.css';
 import { BsArrowUp} from 'react-icons/bs';
@@ -18,14 +18,38 @@ const sections = [
 ];
 
 const Navigation = ({ setShow }) => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState('section-1');
+ 
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll('[id^="section-"]');
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 0) {
+          console.log(section.id)
+          setActiveLink(section.id);
+          // Detener la iteración cuando se encuentra una sección en el top
+          return;
+        }
+      });
+    };
+
+    // Agrega un evento de escucha para el desplazamiento (scroll) de la página
+    window.addEventListener('scroll', handleScroll);
+
+    // Eliminar el evento de escucha al desmontar el componente
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   
   const HandleClick = () => {
     setShow(false);
-
   };
+  
   return (
-    <div className="flex items-center justify-center" >
+    <div className="flex items-center justify-center overflow-hidden max-w-fit" >
       {/* Circulo azul si es pantalla mayor a md */}
       <div className="fixed top-0 left-0 z-50 hidden md:flex">
         <div className="flex flex-col items-center justify-center h-screen">
@@ -56,7 +80,7 @@ const Navigation = ({ setShow }) => {
       </div>
 
       {/* Cuadrado amarillo si es pantalla menor a md */}
-      <div className="relative w-full h-screen text-black bg-slate-100 md:hidden">
+      <div className="relative w-full h-screen text-copper-400 bg-slate-100 md:hidden">
         <div className="absolute w-full h-full opacity-25 bg-copper-100"></div>
         <div className="p-2 px-6">
 

@@ -9,9 +9,9 @@ export const Timeline = () => {
         <div className="overlap">
           <div className="w-4 group">
             <div className="flex items-center justify-center overlap-group relaqtive">
-              <div className="absolute bottom-0 w-4 h-4 bg-black rounded-full" />
-              <div className="w-1 h-full bg-black" />
-              <div className="absolute top-0 w-4 h-4 bg-black rounded-full" />
+              <div className="absolute bottom-0 w-4 h-4 rounded-full bg-copper-400" />
+              <div className="w-1 h-full bg-copper-400" />
+              <div className="absolute top-0 w-4 h-4 rounded-full bg-copper-400" />
             </div>
           </div>
           <div className="frame-3">
@@ -20,7 +20,7 @@ export const Timeline = () => {
               <div className="indicator">
                 <div className="overlap-group-2">
                   <div className="frame-4">
-                    <div className="w-4 h-px mx-auto bg-black line"></div>
+                    <div className="w-4 h-px mx-auto bg-copper-400 line"></div>
                     <div className="div-wrapper">
                       <div className="text-wrapper">01</div>
                     </div>
@@ -52,7 +52,7 @@ export const Timeline = () => {
               <div className="indicator">
                 <div className="overlap-group-2">
                   <div className="frame-4">
-                    <div className="w-4 h-px mx-auto bg-black line"></div>
+                    <div className="w-4 h-px mx-auto bg-copper-400 line"></div>
                     <div className="div-wrapper">
                       <div className="text-wrapper">03</div>
                     </div>
@@ -68,7 +68,7 @@ export const Timeline = () => {
                     <div className="div-wrapper">
                       <div className="text-wrapper">04</div>
                     </div>
-                    <div className="w-4 h-px mx-auto bg-black line"></div>
+                    <div className="w-4 h-px mx-auto bg-copper-400 line"></div>
                   </div>
                   <a className="text-wrapper-3" href='#section-4'>Outfit & Regalos</a>
                 </div>
@@ -80,7 +80,7 @@ export const Timeline = () => {
               <div className="indicator">
                 <div className="overlap-group-2">
                   <div className="frame-4">
-                    <div className="w-4 h-px mx-auto bg-black line"></div>
+                    <div className="w-4 h-px mx-auto bg-copper-400 line"></div>
                     <div className="div-wrapper">
                       <div className="text-wrapper">05</div>
                     </div>
