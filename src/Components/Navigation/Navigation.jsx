@@ -17,7 +17,7 @@ const sections = [
   // Agrega aquí más secciones según necesites
 ];
 
-const Navigation = ({ setShow }) => {
+const Navigation = ({ setShow, sectionPar, setSectionPar }) => {
   const [activeLink, setActiveLink] = useState('section-1');
  
 
@@ -27,7 +27,9 @@ const Navigation = ({ setShow }) => {
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
         if (rect.top <= 0) {
-          console.log(section.id)
+          const splittedText = section.id.split('-');
+          console.log(splittedText[1])
+          parseInt(splittedText[1]) % 2 === 0 ? setSectionPar(true) : setSectionPar(false)
           setActiveLink(section.id);
           // Detener la iteración cuando se encuentra una sección en el top
           return;
@@ -54,7 +56,7 @@ const Navigation = ({ setShow }) => {
       <div className="fixed top-0 left-0 z-50 hidden md:flex">
         <div className="flex flex-col items-center justify-center h-screen">
           <a
-            className={`text-copper-600 flex items-center justify-center mb-4`}
+            className={`text-copper-200 flex items-center justify-center mb-4`}
             onClick={HandleClick}
           >
             <Tooltip content="Inicio">
@@ -67,8 +69,8 @@ const Navigation = ({ setShow }) => {
             <a
               key={section.id}
               href={`#${section.id}`}
-              className={`relative w-8 h-8 border rounded-full ${activeLink === section.id ? 'bg-copper-600 text-white' : 'border-copper-400'
-                } hover:bg-copper-400 active:bg-copper-600 active:border-slate-100 transition-colors duration-300 flex items-center justify-center mb-4`}
+              className={`relative w-8 h-8 border rounded-full ${activeLink === section.id ? sectionPar ? 'bg-white border-2  border-slate-500' : 'bg-copper-600 border-white border-2'  : 'border-copper-800'
+                } hover:bg-copper-300 active:bg-copper-500 active:border-copper-700 transition-colors duration-300 flex items-center justify-center mb-4`}
               onClick={() => setActiveLink(section.id)}
             >
               <Tooltip content={section.name}>
@@ -115,6 +117,8 @@ const Navigation = ({ setShow }) => {
 };
 
 Navigation.propTypes = {
-  setShow: PropTypes.func
+  setShow: PropTypes.func,
+  sectionPar: PropTypes.bool, 
+  setSectionPar: PropTypes.func
 }
 export default Navigation;

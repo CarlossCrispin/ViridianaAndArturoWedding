@@ -3,6 +3,7 @@ import { useState } from 'react';
 import HeaderSection from '../Components/HeaderSection/HeaderSection'
 import { PiMapPinLineThin } from 'react-icons/pi';
 import { LiaPlaceOfWorshipSolid } from 'react-icons/lia';
+import { PiFlowerTulipThin, PiChurchThin } from 'react-icons/pi';
 import Modal from '../Components/Modal/Modal';
 
 function Section3() {
@@ -22,8 +23,8 @@ function Section3() {
       <div className="flex items-center justify-center w-full h-full mt-16">
         <div className="grid w-full gap-4 p-4 md:gap-8 md:p-8 lg:p-16 sm:grid-cols-2 lg:gap-16">
           <div className="flex flex-col items-center justify-center w-auto h-auto p-2 py-8 rounded bg-copper-50">
-            <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200">
-              <img src="https://cdn-icons-png.flaticon.com/128/3241/3241046.png" alt="icon" className="w-full h-auto" />
+            <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200 text bg-copper-600">
+              <PiChurchThin className={"text-copper-600 text-9xl"} />
             </div>
             <div className="mt-4 space-y-6 text-center">
               <div>
@@ -44,7 +45,7 @@ function Section3() {
                   <PiMapPinLineThin className='text-5xl text-copper-300' />
                 </div>
                 <h2 className='px-2 text-xs font-thin leading-relaxed text-left md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Norte 72 #7910, Col. Salvador Diaz Mirón CDMX.
+                  Norte 72 #7929 Col. Salvador Diaz Mirón.
                 </h2>
               </div>
             </div>
@@ -52,7 +53,7 @@ function Section3() {
           
           <div className="flex flex-col items-center justify-center w-auto h-auto p-2 py-8 rounded bg-copper-50">
             <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200">
-              <img src="https://cdn-icons-png.flaticon.com/128/2950/2950180.png" alt="icon" className="w-full h-auto" />
+              <PiFlowerTulipThin className={"text-copper-600 text-9xl"} />
             </div>
             <div className="mt-4 space-y-6 text-center">
               <div>
@@ -67,7 +68,7 @@ function Section3() {
                   Parroquia Señora de nuestra señora de la asoledad.
                 </h2>
               </div>
-              <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>10:00 AM</h3>
+              <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>05:30 PM</h3>
               <div className="flex items-center justify-center py-4">
                 <div className="w-auto p-1 rounded bg-copper-100">
                   <PiMapPinLineThin className='text-5xl text-copper-300' />

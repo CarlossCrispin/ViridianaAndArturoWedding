@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { HiOutlineArrowNarrowUp } from 'react-icons/hi';
+import PropTypes from 'prop-types';
 
-const ScrollButton = () => {
-  const [isButtonVisible, setIsButtonVisible] = useState(false);
+const ScrollButton = ({ sectionPar }) => {
+  const [isButtonVisible, setIsButtonVisible,] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,7 +26,7 @@ const ScrollButton = () => {
   }, []);
 
   const scrollToTimeline = () => {
-    
+
     const timelineSection = document.getElementById('timeline');
     timelineSection.scrollIntoView({ behavior: 'smooth' });
     /* const Section1 = document.getElementById('section-1');
@@ -34,15 +35,22 @@ const ScrollButton = () => {
 
   return (
     <div className={`fixed bottom-4 right-4 z-50 md:hidden ${isButtonVisible ? 'visible' : 'invisible'}`} onClick={scrollToTimeline}>
-      <div
-        className={`rounded-full border-copper-600 border p-2 cursor-pointer transition-opacity duration-300 ${isButtonVisible ? 'opacity-100' : 'opacity-0'
-          }`}
-        
-      >
-        <HiOutlineArrowNarrowUp className="text-copper-600" size={20} />
+      <div className="relative">
+        <div className="absolute top-0 left-0 w-full h-full bg-black border rounded-full opacity-20"></div>
+        <div
+          className={`rounded-full  ${sectionPar ? 'border-copper-600' : 'border-white'
+            } border p-2 cursor-pointer transition-opacity duration-300 ${isButtonVisible ? 'opacity-100' : 'opacity-0'
+            }`}
+
+        >
+          <HiOutlineArrowNarrowUp className={`${sectionPar ? "text-copper-600" : "text-white"}`} size={20} />
+        </div>
       </div>
     </div>
   );
 };
 
+ScrollButton.propTypes = {
+  sectionPar: PropTypes.bool
+}
 export default ScrollButton;

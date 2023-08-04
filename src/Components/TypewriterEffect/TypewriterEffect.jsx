@@ -34,7 +34,7 @@ const TypewriterEffect = ({ texts, typingSpeed, setIsButton }) => {
 
   return (
     <div className="typewriter-container">
-      <pre className="text-xs tracking-wide typewriter-text md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">{displayText}</pre>
+      <pre className="text-xs tracking-wide typewriter-text md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl ">{displayText}</pre>
     </div>
   );
 };
