@@ -7,7 +7,7 @@ function Section4() {
     <div className='relative w-screen min-h-screen bg-copper-600' id='section-4'>
       < HeaderSection number={4} text="Outfit & Regalos" dark={true} />
       <div className="flex items-center justify-center w-full h-screen mt-16">
-        <div className="grid grid-cols-3 grid-rows-4 gap-4">
+        <div className="grid grid-cols-1 grid-rows-4 gap-4 md:grid-cols-3">
           {/* Primer div */}
           <div className="p-8 border rounded-full"> <PiHoodieThin className={"text-copper-100 text-9xl"} /></div>
           {/* Segundo div */}

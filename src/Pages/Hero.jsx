@@ -4,7 +4,7 @@ import Counter from "../Components/Counter/Counter";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="relative w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover bg-full" style={{ backgroundImage: "url('https://images.pexels.com/photos/1727415/pexels-photo-1727415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }} id="section-1">
+      <div className="relative w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('https://images.pexels.com/photos/1727415/pexels-photo-1727415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }} id="section-1">
         <div className="absolute w-full h-full bg-opacity-75 bg-copper-200" />
         {/* Texto */}
         <div className="absolute z-20 flex items-center justify-center w-full bg-copper-600 md:h-1/3 h-1/5">
