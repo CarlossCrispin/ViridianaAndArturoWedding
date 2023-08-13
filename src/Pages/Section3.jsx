@@ -36,7 +36,7 @@ function Section3() {
                   <LiaPlaceOfWorshipSolid className='text-5xl text-copper-300' />
                 </div>
                 <h2 className='px-2 text-xs font-thin leading-relaxed tracking-wide text-justify md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Parroquia Señora de nuestra señora de la asoledad.
+                  Parroquia de Nuestra Señora de la Soledad.
                 </h2>
               </div>
               <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>06:00 PM - 07:00 PM</h3>
@@ -65,7 +65,7 @@ function Section3() {
                   <LiaPlaceOfWorshipSolid className='text-5xl text-copper-300' />
                 </div>
                 <h2 className='px-2 text-xs font-thin leading-relaxed tracking-wide text-justify md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Parroquia Señora de nuestra señora de la asoledad.
+                  Parroquia de Nuestra Señora de la Soledad.
                 </h2>
               </div>
               <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>05:30 PM</h3>

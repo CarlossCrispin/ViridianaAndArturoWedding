@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="bg-white max-w-fit">
       {show ? <>
+        {/* <Story /> */}
         <Section1 />
         <Hero />
         <Navigation setShow={setShow} sectionPar={sectionPar} setSectionPar={setSectionPar} />
@@ -32,8 +33,8 @@ function App() {
         <Section4 />
         <Section5 />
         <Section6 />
-       
-       
+
+
       </> : <>
         <Envelope setShow={setShow} />
       </>}
