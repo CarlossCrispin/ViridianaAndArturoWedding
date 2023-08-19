@@ -4,7 +4,7 @@ import ScrollIndicator from '../Components/ScrollIndicator/ScrollIndicator';
 const Section1 = () => {
 
   return (
-    <div className="relative w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover " style={{ backgroundImage: "url('https://images.pexels.com/photos/1727415/pexels-photo-1727415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }} id="section-1">
+    <div className="relative w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover img-cake"  id="section-1">
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="absolute flex flex-col items-center space-y-12 md:space-y-24 text-copper-300">

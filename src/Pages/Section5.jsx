@@ -2,8 +2,7 @@ import { useState } from 'react';
 
 import HeaderSection from '../Components/HeaderSection/HeaderSection'
 import { PiMapPinLineThin } from 'react-icons/pi';
-import { LiaPlaceOfWorshipSolid } from 'react-icons/lia';
-import {  PiChampagneThin, PiWarehouseThin } from 'react-icons/pi';
+import { PiChampagneThin, PiWarehouseThin } from 'react-icons/pi';
 import Modal from '../Components/Modal/Modal';
 
 const Section5 = () => {
@@ -20,65 +19,41 @@ const Section5 = () => {
     <div className='relative w-screen min-h-screen' id='section-5'>
       < HeaderSection number={5} text="Locación del Evento" />
       <div className="flex items-center justify-center w-full h-full mt-16">
-        <div className="grid w-full gap-4 p-4 md:gap-8 md:p-8 lg:p-16 sm:grid-cols-2 lg:gap-16">
-          <div className="flex flex-col items-center justify-center w-auto h-auto p-2 py-8 rounded bg-copper-50">
-            <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200 text bg-copper-600">
-              <PiWarehouseThin className={"text-copper-600 text-9xl"} />
-            </div>
-            <div className="mt-4 space-y-6 text-center">
-              <div>
-                <h1 className='text-4xl text-center inspiration md:text-6xl lg:text-8xl xl:text-9xl text-copper-600'>El salón</h1>
-                <div className="w-4/5 h-2 mx-auto border-b border-copper-800"></div>
-              </div>
-              <div className="flex items-center justify-center py-4">
-                <div className="w-auto p-1 rounded bg-copper-100">
-                  <LiaPlaceOfWorshipSolid className='text-5xl text-copper-300' />
-                </div>
-                <h2 className='w-full px-2 text-xs font-thin leading-relaxed tracking-wide text-justify md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Casa de cinthya.
-                </h2>
-              </div>
-              <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>08:00 PM</h3>
-              <div className="flex items-center justify-center py-4">
-                <div className="w-auto p-1 rounded bg-copper-100">
-                  <PiMapPinLineThin className='text-5xl text-copper-300' />
-                </div>
-                <h2 className='px-2 text-xs font-thin leading-relaxed text-left md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Av. 523 #14 Primera Sección de San Juan de Aragón.
-                </h2>
-              </div>
-            </div>
+        <div className="flex flex-col items-center justify-center w-auto h-auto p-2 py-8 rounded bg-copper-50">
+          <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200">
+            <PiChampagneThin className={"text-copper-600 text-9xl"} />
           </div>
+          <div className="mt-4 space-y-6 text-center">
+            <div>
+              <h1 className='text-4xl text-center inspiration md:text-6xl lg:text-8xl xl:text-9xl text-copper-600'>El jardín</h1>
+              <div className="w-4/5 h-2 mx-auto border-b border-copper-800"></div>
+            </div>
+            <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>20:00 Hrs.</h3>
 
-          <div className="flex flex-col items-center justify-center w-auto h-auto p-2 py-8 rounded bg-copper-50">
-            <div className="p-8 rounded-full bg-gradient-to-t from-copper-100 to-copper-200">
-              <PiChampagneThin className={"text-copper-600 text-9xl"} />
+            <div className="flex items-center justify-center py-4">
+              <div className="w-auto p-1 rounded bg-copper-100">
+                <PiWarehouseThin className='text-5xl text-copper-300' />
+              </div>
+              <h2 className='w-full px-2 text-xs font-thin leading-relaxed text-left md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
+                Jardin Ogun Afereyo
+              </h2>
             </div>
-            <div className="mt-4 space-y-6 text-center">
-              <div>
-                <h1 className='text-4xl text-center inspiration md:text-6xl lg:text-8xl xl:text-9xl text-copper-600'>La recepción</h1>
-                <div className="w-4/5 h-2 mx-auto border-b border-copper-800"></div>
-              </div>
-              <div className="flex items-center justify-center py-4">
-                <div className="w-auto p-1 rounded bg-copper-100">
-                  <LiaPlaceOfWorshipSolid className='text-5xl text-copper-300' />
-                </div>
-                <h2 className='w-full px-2 text-xs font-thin leading-relaxed tracking-wide text-justify md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Casa de cinthya.
-                </h2>
-              </div>
-              <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>07:30 PM</h3>
-              <div className="flex items-center justify-center py-4">
-                <div className="w-auto p-1 rounded bg-copper-100">
-                  <PiMapPinLineThin className='text-5xl text-copper-300' />
-                </div>
-                <h2 className='px-2 text-xs font-thin leading-relaxed text-left md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
-                  Av. 523 #14 Primera Sección de San Juan de Aragón.
-                </h2>
-              </div>
+            <div>
+              <h1 className='text-4xl text-center inspiration md:text-6xl lg:text-8xl xl:text-9xl text-copper-600'>La recepción</h1>
             </div>
+            <h3 className='mx-auto text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-copper-600'>19:30 Hrs</h3>
+            <div className="flex items-center justify-center py-4">
+              <div className="w-auto p-1 rounded bg-copper-100">
+                <PiMapPinLineThin className='text-5xl text-copper-300' />
+              </div>
+              <h2 className='px-2 text-xs font-thin leading-relaxed text-left md:text-xl lg:text-2xl xl:text-4xl text-copper-500'>
+                Av. 523 #14 Primera Sección de San Juan de Aragón.
+              </h2>
+            </div>
+            <span className='text-xs text-copper-600'>Nota: No se cuenta con estacionamiento, favor de no obstruir entradas.</span>
           </div>
         </div>
+
       </div>
       <div className="flex items-center justify-center p-4">
         <div className="w-full p-8 md:w-3/5">

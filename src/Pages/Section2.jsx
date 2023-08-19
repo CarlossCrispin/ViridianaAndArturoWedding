@@ -16,13 +16,13 @@ export default function Section2() {
             <div className="flex flex-col items-center justify-center w-2/3 h-full overflow-hidden">
               <div className="relative w-full overflow-hidden transition-transform duration-700 ease-in-out transform rounded-lg cursor-pointer hover:scale-110">
                 <img
-                  src="./img/VirArt6.jpeg"
+                  src="./img/2012.jpeg"
                   alt="Imagen"
                   className="object-cover w-full h-full"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
                 <div className="absolute inset-x-0 bottom-0 transition-transform duration-700 ease-in-out transform opacity-75">
-                  <p className="p-2 text-xs font-bold text-center text-white bg-black md:text-md ">Texto</p>
+                  <p className="p-2 text-xs font-bold text-center text-white uppercase bg-black md:text-2xl">&quot; El Flechazo &quot;</p>
                 </div>
               </div>
             </div>
@@ -31,7 +31,7 @@ export default function Section2() {
                 <div className="w-full h-0.5 bg-white"></div>
                 <div className="w-2 h-2 bg-white rounded-full"></div>
               </div>
-              <p className="text-xs text-white">2010</p>
+              <p className="text-xs text-white">2012</p>
             </div>
           </div>
           {/* Div 2 - Pegado a la izquierda */}
@@ -41,18 +41,18 @@ export default function Section2() {
                 <div className="w-2 h-2 bg-white rounded-full"></div>
                 <div className="w-full h-0.5 bg-white"></div>
               </div>
-              <p className="text-xs text-white">2014</p>
+              <p className="text-xs text-white">2019</p>
             </div>
             <div className="flex flex-col items-center justify-center w-2/3 h-full overflow-hidden">
               <div className="relative w-full overflow-hidden transition-transform duration-700 ease-in-out transform rounded-lg cursor-pointer hover:scale-110">
                 <img
-                  src="./img/VirArt7.jpeg"
+                  src="./img/2019.jpg"
                   alt="Imagen"
                   className="object-cover w-full h-full"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
                 <div className="absolute inset-x-0 bottom-0 transition-transform duration-700 ease-in-out transform opacity-75">
-                  <p className="p-2 text-xs font-bold text-center text-white bg-black md:text-md ">Texto</p>
+                  <p className="p-2 text-xs font-bold text-center text-white uppercase bg-black md:text-2xl">&quot; El Reencuentro &quot;</p>
                 </div>
               </div>
             </div>
@@ -63,13 +63,14 @@ export default function Section2() {
             <div className="flex flex-col items-center justify-center w-2/3 h-full overflow-hidden">
               <div className="relative w-full overflow-hidden transition-transform duration-700 ease-in-out transform rounded-lg cursor-pointer hover:scale-110">
                 <img
-                  src="./img/VirArt8.jpeg"
+                  src="./img/2020.jpg"
                   alt="Imagen"
                   className="object-cover w-full h-full"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
                 <div className="absolute inset-x-0 bottom-0 transition-transform duration-700 ease-in-out transform opacity-75">
-                  <p className="p-2 text-xs font-bold text-center text-white bg-black md:text-md ">Texto</p>
+                  <p className="p-2 text-xs font-bold text-center text-white uppercase bg-black md:text-2xl">&quot; El Compromiso &quot;</p>
+                  
                 </div>
               </div>
             </div>
@@ -93,13 +94,13 @@ export default function Section2() {
             <div className="flex flex-col items-center justify-center w-2/3 h-full overflow-hidden">
               <div className="relative w-full overflow-hidden transition-transform duration-700 ease-in-out transform rounded-lg cursor-pointer hover:scale-110">
                 <img
-                  src="./img/VirArt9.jpeg"
+                  src="./img/2022.jpg"
                   alt="Imagen"
                   className="object-cover w-full h-full"
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
                 <div className="absolute inset-x-0 bottom-0 transition-transform duration-700 ease-in-out transform opacity-75">
-                  <p className="p-2 text-xs font-bold text-center text-white bg-black md:text-md ">Texto</p>
+                  <p className="p-2 text-xs font-bold text-center text-white uppercase bg-black md:text-2xl">&quot; Para toda la Vida &quot;</p>
                 </div>
               </div>
             </div>

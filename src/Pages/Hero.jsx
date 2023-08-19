@@ -5,10 +5,7 @@ const Hero = () => {
   return (
     <div className="relative">
       <div
-        className="relative flex items-center justify-center w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover"
-        style={{
-          backgroundImage: "url('https://images.pexels.com/photos/1727415/pexels-photo-1727415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
-        }}
+        className="relative flex items-center justify-center w-screen min-h-screen overflow-hidden bg-fixed bg-center bg-cover img-cake"
         id="hero"
       >
         <div className="absolute w-full h-full bg-opacity-75 bg-copper-200" />

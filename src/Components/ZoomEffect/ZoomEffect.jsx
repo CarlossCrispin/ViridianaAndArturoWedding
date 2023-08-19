@@ -25,7 +25,7 @@ const ZoomEffect = ({ setIsButton}) => {
             texts={[
               "Como en el fútbol;",
               "Después de nuestro 1er tiempo, hace 11 años, cuando supimos que el amor es verdadero, quisimos ir por todo en el 2do tiempo, y después de 4 años …",
-              "Decidimos!",
+              "¡Decidimos!",
               "Ser más felices y",
               "Queremos contarte que …",
               "¡Nos casamos!"

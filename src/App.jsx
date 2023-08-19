@@ -17,7 +17,7 @@ import Hero from './Pages/Hero'
 
 
 function App() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const [sectionPar, setSectionPar] = useState(false);
 
   return (
