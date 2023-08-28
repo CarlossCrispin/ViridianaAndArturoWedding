@@ -94,7 +94,7 @@ export default function Section2() {
             <div className="flex flex-col items-center justify-center w-2/3 h-full overflow-hidden">
               <div className="relative w-full overflow-hidden transition-transform duration-700 ease-in-out transform rounded-lg cursor-pointer hover:scale-110">
                 <img
-                  src="./img/2022.jpg"
+                  src="./img/VirArt3.jpeg"
                   alt="Imagen"
                   className="object-cover w-full h-full"
                 />
